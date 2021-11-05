@@ -670,7 +670,7 @@ class Building_Complex_Layout extends StatelessWidget {
           margin: EdgeInsets.all(16.0),
           padding: EdgeInsets.all(16.0),
           decoration: BoxDecoration(
-            color: Colors.purple[900],
+            color: Colors.indigo[200],
             border: Border.all(),
             borderRadius: BorderRadius.all(Radius.circular(3.0)),
           ),
@@ -686,13 +686,13 @@ class Building_Complex_Layout extends StatelessWidget {
                     padding: EdgeInsets.only(right: 8.0),
                     child: Icon(
                       Icons.favorite,
-                      color: Colors.green,
+                      color: Colors.teal,
                     ),
                   ),
                   Text(
                     'TACOS',
                     style: TextStyle(
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                 ],
@@ -718,14 +718,14 @@ class Building_Complex_Layout extends StatelessWidget {
                   Text(
                     'EXPLORAR MÁS TACOS',
                     style: TextStyle(
-                      color: Colors.green,
+                      color: Colors.red[100],
                     ),
                   ),
                   Padding(
                     padding: EdgeInsets.only(left: 8.0),
                     child: Icon(
                       Icons.arrow_forward,
-                      color: Colors.green,
+                      color: Colors.amber,
                     ),
                   ),
                 ],
